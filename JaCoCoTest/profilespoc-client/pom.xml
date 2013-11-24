@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.geogrep.geogrep-rest</groupId>
+		<artifactId>profilespoc</artifactId>
+		<version>0.34-SNAPSHOT</version>
+	</parent>
+	<artifactId>profilespoc-client</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>com.geogrep.geogrep-rest</groupId>
+			<artifactId>api</artifactId>
+			<version>0.34-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.geogrep.geogrep-rest</groupId>
+			<artifactId>implM</artifactId>
+			<version>0.34-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.geogrep.geogrep-rest</groupId>
+			<artifactId>implN</artifactId>
+			<version>0.34-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<profiles>
+		<profile>
+			<id>implM</id>
+			<activation>
+				<property>
+					<name>impl</name>
+					<value>M</value>
+				</property>
+			</activation>
+			<dependencies>
+				<dependency>
+					<groupId>com.geogrep.geogrep-rest</groupId>
+					<artifactId>implM</artifactId>
+					<version>0.34-SNAPSHOT</version>
+					<scope>runtime</scope>
+				</dependency>
+			</dependencies>
+		</profile>
+	</profiles>
+</project>
