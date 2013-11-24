@@ -227,9 +227,9 @@
       <jacoco.version>0.6.3.201306030806</jacoco.version>
    </properties>
    <modules>
-   	<module>api</module>
-   	<module>implM</module>
-   	<module>implN</module>
+   	<module>jacocotest-api</module>
+   	<module>jacocotest-m</module>
+   	<module>jacocotest-n</module>
    	<module>profilespoc-client</module>
    	<module>profilesoc-war</module>
    </modules>
