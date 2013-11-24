@@ -7,7 +7,7 @@
    <artifactId>parent</artifactId>
    <packaging>pom</packaging>
    <name>profilespoc</name>
-   <version>0.34-SNAPSHOT</version>
+   <version>0.1-SNAPSHOT</version>
    <url>https://github.com/geogrep/geogrep-rest</url>
    <scm>
       <connection>scm:git:git://github.com/geogrep/geogrep-rest.git</connection>
