@@ -11,7 +11,6 @@ import org.slf4j.Logger;
 
 import org.slf4j.LoggerFactory;
 
-@Stateless(mappedName="Reservation")
 public class ReservationEJB implements ReservationLocal, ReservationRemote {
 
     private static Logger logger = LoggerFactory.getLogger(ReservationEJB.class);

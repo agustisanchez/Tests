@@ -24,7 +24,8 @@ public class ReservationIT {
         logger.debug("getting jndi initial context");
         jndi=new InitialContext();
         logger.debug("jndi={}", jndi.getEnvironment());
-        Object lookup = jndi.lookup("Reservation#org.myorg.basicejb.ejb.ReservationRemote");
+//        Object lookup = jndi.lookup("Reservation#org.myorg.basicejb.ejb.ReservationRemote");
+        Object lookup = jndi.lookup("Reservation5#org.myorg.basicejb.ejb.ReservationRemote");
         logger.debug("{}", lookup);
         reservation = (ReservationRemote) lookup;
     }

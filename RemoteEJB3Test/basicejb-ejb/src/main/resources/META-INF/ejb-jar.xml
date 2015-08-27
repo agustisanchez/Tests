@@ -7,7 +7,9 @@
 	<enterprise-beans>
 		<session>
 			<ejb-name>ReservationEJB</ejb-name>
+			<mapped-name>Reservation5</mapped-name>
 			<ejb-class>org.myorg.basicejb.ejb.ReservationEJB</ejb-class>
+			<session-type>Stateless</session-type>
 		</session>
 	</enterprise-beans>
 </ejb-jar>

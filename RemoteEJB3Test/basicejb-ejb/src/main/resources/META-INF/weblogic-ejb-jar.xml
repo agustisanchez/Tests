@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.0/weblogic-ejb-jar.xsd">
 	<weblogic-enterprise-bean>
-		<ejb-name>ReservationEJB</ejb-name>
-		<jndi-name>ejb/ReservationJNDI</jndi-name>
+        <ejb-name>ReservationEJB</ejb-name>
+        <jndi-name>ejb/Reservation4</jndi-name>
 	</weblogic-enterprise-bean>
 </weblogic-ejb-jar>
